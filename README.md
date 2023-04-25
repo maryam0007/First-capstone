@@ -44,7 +44,7 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- ** A home page with diiferent sections including speakers section **
+- ** A home page with different sections including main program and speakers section **
 - ** An about page with the about data **
 - ** A file containing linters **
 
@@ -56,7 +56,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://maryam0007.github.io/First-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
