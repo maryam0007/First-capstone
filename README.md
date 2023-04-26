@@ -135,7 +135,13 @@ If you like this project feel free to fork it or star it
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks Microverse, learn how to code > [Join Microverse](https://www.microverse.org/?grsf=9m3hq6)
+Thanks Microverse, learn how to code >
+#### [Join Microverse](https://www.microverse.org/?grsf=9m3hq6)
+
+#### [Cindy Shin](https://www.behance.net/adagio07)
+
+#### [Creative Commons Licence](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
