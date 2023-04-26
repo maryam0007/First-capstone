@@ -11,7 +11,7 @@ humber.addEventListener('click', () => {
   } else {
     nav.style.width = '100%';
     menu.style.display = 'grid';
-    menu.style.height = '424px';
+    menu.style.height = '70vh';
     humber.innerHTML = '<i class="fas fa-times-circle"></i>';
   }
 });

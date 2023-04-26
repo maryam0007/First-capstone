@@ -11,11 +11,12 @@
   .dark_bar > ul {
     width: 400px;
     display: flex;
+    margin-right: 5%;
   }
 
   .dark_bar li {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 12px;
   }
 
   .dark_bar a {
@@ -125,11 +126,15 @@
     justify-content: center;
     align-items: center;
     margin: 1px;
-    background-color: rgba(39 42 49 / 75%);
+    background-color: #d3d3d31c;;
   }
 
   .program:hover {
     border: 2px solid #d3d3d3;
+  }
+
+  .program > h3 {
+    margin-left: 20vw;
   }
 
   .program > p {
@@ -155,7 +160,7 @@
 
   .partner {
     display: grid;
-    background-image: url('../images/sndbg.jpg');
+    background-color: #272a31;
     background-size: cover;
     height: 200px;
     color: #d3d3d3;

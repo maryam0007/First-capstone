@@ -2,37 +2,37 @@ const speaker = [
   {
     name: 'Mousa YAYA',
     title: 'CEO and Founder of global school',
-    image: 'images/speaker1.png',
+    image: 'images/speaker1.jpg',
     biblio: 'Created Global school in 2012 to bring all the student together across the world widthout discrimination',
   },
   {
     name: 'Richard YONON',
     title: 'Professor of sociology at Harvard University',
-    image: 'images/speaker2.png',
+    image: 'images/speaker2.jpg',
     biblio: 'Richard is a great sociologue, he published his seminal book "Nature and Human geing" in 1995',
   },
   {
     name: 'Toyi Manha',
     title: 'Ministre of youth in Ghana',
-    image: 'images/speaker3.png',
+    image: 'images/speaker3.jpg',
     biblio: 'Toyi works for potential changes and hope for the youth in the wholeword specialy in africa',
   },
   {
     name: 'Julia LEDA',
     title: 'Professor of sociology at Harvard University',
-    image: 'images/speaker4.png',
+    image: 'images/speaker4.jpg',
     biblio: 'Julia is a great sociologue, he published his seminal book "Nature and Human geing" in 1995',
   },
   {
     name: 'Mousa YAYA',
     title: 'CEO and Founder of global school',
-    image: 'images/speaker5.png',
+    image: 'images/speaker5.jpg',
     biblio: 'Created Global school in 2012 to bring all the student together across the world widthout discrimination',
   },
   {
     name: 'Richard YONON',
     title: 'Professor of sociology at Harvard University',
-    image: 'images/speaker6.png',
+    image: 'images/speaker6.jpg',
     biblio: 'Richard is a great sociologue, he published his seminal book "Nature and Human geing" in 1995',
   },
 ];
@@ -40,6 +40,7 @@ const containSpeaker = document.querySelector('.contain_speaker');
 
 function ftnSpeaker(n) {
   const cardSpeaker = `
+  <article>
       <div class="speaker">
         <img src="${speaker[n].image}" alt="speaker's peature">
       <div>
@@ -47,7 +48,8 @@ function ftnSpeaker(n) {
       <h4>${speaker[n].title}.</h4>
       <p>${speaker[n].biblio}</p>
       </div>
-      </div>`;
+      </div>
+      </article>`;
   containSpeaker.insertAdjacentHTML('beforeend', cardSpeaker);
 }
 
